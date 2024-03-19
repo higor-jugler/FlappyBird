@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E0066C542BA9F50600B8BB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0066C532BA9F50600B8BB67 /* AppDelegate.swift */; };
-		E0066C562BA9F50600B8BB67 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E0066C552BA9F50600B8BB67 /* GameScene.sks */; };
-		E0066C582BA9F50600B8BB67 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E0066C572BA9F50600B8BB67 /* Actions.sks */; };
 		E0066C5A2BA9F50600B8BB67 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0066C592BA9F50600B8BB67 /* GameScene.swift */; };
 		E0066C5C2BA9F50600B8BB67 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0066C5B2BA9F50600B8BB67 /* GameViewController.swift */; };
 		E0066C5F2BA9F50600B8BB67 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E0066C5E2BA9F50600B8BB67 /* Base */; };
@@ -20,8 +18,6 @@
 /* Begin PBXFileReference section */
 		E0066C502BA9F50600B8BB67 /* FlappyDragon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyDragon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0066C532BA9F50600B8BB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0066C552BA9F50600B8BB67 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E0066C572BA9F50600B8BB67 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E0066C592BA9F50600B8BB67 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E0066C5B2BA9F50600B8BB67 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E0066C5E2BA9F50600B8BB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				E0066C532BA9F50600B8BB67 /* AppDelegate.swift */,
-				E0066C552BA9F50600B8BB67 /* GameScene.sks */,
-				E0066C572BA9F50600B8BB67 /* Actions.sks */,
 				E0066C592BA9F50600B8BB67 /* GameScene.swift */,
 				E0066C5B2BA9F50600B8BB67 /* GameViewController.swift */,
 				E0066C5D2BA9F50600B8BB67 /* Main.storyboard */,
@@ -129,10 +123,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0066C562BA9F50600B8BB67 /* GameScene.sks in Resources */,
 				E0066C5F2BA9F50600B8BB67 /* Base in Resources */,
 				E0066C612BA9F50700B8BB67 /* Assets.xcassets in Resources */,
-				E0066C582BA9F50600B8BB67 /* Actions.sks in Resources */,
 				E0066C642BA9F50700B8BB67 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,8 +295,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,9 +304,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.endeavorsheep.FlappyDragon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,8 +326,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,9 +335,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.endeavorsheep.FlappyDragon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
