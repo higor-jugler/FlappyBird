@@ -13,6 +13,9 @@
 		E0066C5F2BA9F50600B8BB67 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E0066C5E2BA9F50600B8BB67 /* Base */; };
 		E0066C612BA9F50700B8BB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0066C602BA9F50700B8BB67 /* Assets.xcassets */; };
 		E0066C642BA9F50700B8BB67 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E0066C632BA9F50700B8BB67 /* Base */; };
+		E0621AB22BAF06F40077237F /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E0621AB12BAF06F40077237F /* music.m4a */; };
+		E07977F52BAB4AB90028378A /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E07977F32BAB4AB90028378A /* hit.mp3 */; };
+		E07977F62BAB4AB90028378A /* score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E07977F42BAB4AB90028378A /* score.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		E0066C5E2BA9F50600B8BB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0066C602BA9F50700B8BB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0066C632BA9F50700B8BB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0621AB12BAF06F40077237F /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = music.m4a; path = "../../../../Downloads/Arquivos FlappyDragon/music.m4a"; sourceTree = "<group>"; };
+		E07977F32BAB4AB90028378A /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		E07977F42BAB4AB90028378A /* score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = score.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				E0066C532BA9F50600B8BB67 /* AppDelegate.swift */,
 				E0066C592BA9F50600B8BB67 /* GameScene.swift */,
 				E0066C5B2BA9F50600B8BB67 /* GameViewController.swift */,
+				E07977F32BAB4AB90028378A /* hit.mp3 */,
+				E07977F42BAB4AB90028378A /* score.mp3 */,
+				E0621AB12BAF06F40077237F /* music.m4a */,
 				E0066C5D2BA9F50600B8BB67 /* Main.storyboard */,
 				E0066C602BA9F50700B8BB67 /* Assets.xcassets */,
 				E0066C622BA9F50700B8BB67 /* LaunchScreen.storyboard */,
@@ -125,6 +134,9 @@
 			files = (
 				E0066C5F2BA9F50600B8BB67 /* Base in Resources */,
 				E0066C612BA9F50700B8BB67 /* Assets.xcassets in Resources */,
+				E0621AB22BAF06F40077237F /* music.m4a in Resources */,
+				E07977F62BAB4AB90028378A /* score.mp3 in Resources */,
+				E07977F52BAB4AB90028378A /* hit.mp3 in Resources */,
 				E0066C642BA9F50700B8BB67 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
